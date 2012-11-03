@@ -28,9 +28,9 @@ else{
 		case "update":
 			$res = getContent($db, 15);
 			while($row = mysql_fetch_array($res)){
-				$result .= "<p><strong>".$row['user']."</strong><img src=\"images/bullet.gif\" alt=\"-\" />".$row['message']." <span class=\"date\">".$row['date']."</span></p>";
+				$resultat .= "<p><strong>".$row['user']."</strong><img src=\"images/bullet.gif\" alt=\"-\" />".$row['message']." <span class=\"date\">".$row['date']."</span></p>";
 			}
-			echo $result;
+			echo $resultat;
 			break;
 		case "insert":
 			echo insertMessage($_POST['nick'], $_POST['message']);
