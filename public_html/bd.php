@@ -1,6 +1,6 @@
 <?php
-$db = mysql_connect ("localhost","fr18481","hostbd");
-mysql_select_db ("fr18481_fc",$db);
+$db = mysql_connect ("localhost","root","");
+mysql_select_db ("fctw1",$db);
 mysql_query("set names cp1251");
 mysql_query("SET CHARACTER SET ‘utf8′");
 $sql = "SELECT * FROM config WHERE 1";
