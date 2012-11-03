@@ -1,0 +1,19 @@
+put_tp---
+transfers---
+otm---
+endOfSeason---
+bd ---
+editTable---
+таблица config---
+news
+таблица news_comments
+поле msgs в таблице users
+images/name.png
+addCom
+windowOpen---
+windowClose---
+
+кодировки:
+shoutbox
+
+поправить endOfSeason s на конце kZarp

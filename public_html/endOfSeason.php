@@ -392,7 +392,7 @@ for ($i = 1; $i < $i1; $i++){
 			$budgets[$i] += $sps[$lep[$j]+72]*1000000;
 		}
 	}	
-	$budgets[$i] = $budgets[$i] - $kZarp[$i] - $dolgs[$i];
+	$budgets[$i] = $budgets[$i] - $kZarps[$i] + $dolgs[$i];
 	$sql = <<<HERE
 	UPDATE teams
 	SET
